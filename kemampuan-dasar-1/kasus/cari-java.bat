@@ -1,0 +1,1 @@
+$ cari-java.sh $HOME/src

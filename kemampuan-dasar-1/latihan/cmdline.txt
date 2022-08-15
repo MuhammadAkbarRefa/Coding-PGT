@@ -1,0 +1,239 @@
+1. date /t , hasil =>  E:\>date /t
+			     15/08/2022
+
+2. ping google.com , hasil => E:\>ping google.com
+
+					Pinging google.com [142.250.4.100] with 32 bytes of data:
+					Reply from 142.250.4.100: bytes=32 time=89ms TTL=110
+					Reply from 142.250.4.100: bytes=32 time=39ms TTL=110
+					Reply from 142.250.4.100: bytes=32 time=41ms TTL=110
+					Reply from 142.250.4.100: bytes=32 time=47ms TTL=110
+
+					Ping statistics for 142.250.4.100:
+    						Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+					Approximate round trip times in milli-seconds:
+    						Minimum = 39ms, Maximum = 89ms, Average = 54ms
+
+3. whoami , hasil => E:\>whoami
+			   laptop-qokt7rgd\intan dihyan
+
+4. ipconfig , hasil => E:\>ipconfig
+
+			     Windows IP Configuration
+			       
+			     
+			     Wireless LAN adapter Local Area Connection* 3:
+			     
+   				  Media State . . . . . . . . . . . : Media disconnected
+   				  Connection-specific DNS Suffix  . :
+			     
+			     Wireless LAN adapter Local Area Connection* 4:
+			     
+   				  Media State . . . . . . . . . . . : Media disconnected
+   				  Connection-specific DNS Suffix  . :
+
+			     Wireless LAN adapter Wi-Fi:
+			     
+   				  Connection-specific DNS Suffix  . :
+   				  Link-local IPv6 Address . . . . . : fe80::d878:e90d:a304:6093%13
+   				  IPv4 Address. . . . . . . . . . . : 192.168.0.5
+   				  Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   				  Default Gateway . . . . . . . . . : fe80::f2b4:d2ff:fe95:2a22%13
+                                      				  192.168.0.1
+
+5. hostname , hasil => E:\>hostname
+			     LAPTOP-QOKT7RGD
+
+6. getmac , hasil => E:\>getmac
+			   
+			   Physical Address    Transport Name
+			   =================== ==========================================================
+			   4C-1D-96-4A-F9-02   \Device\Tcpip_{6B8117D2-3013-4FF5-9F89-26208E23F924}
+
+7. systeminfo , hasil => E:\>systeminfo
+				 
+				 Host Name:                 LAPTOP-QOKT7RGD
+				 OS Name:                   Microsoft Windows 11 Education
+ 				 OS Version:                10.0.22000 N/A Build 22000
+				 OS Manufacturer:           Microsoft Corporation
+				 OS Configuration:          Standalone Workstation
+				 OS Build Type:             Multiprocessor Free
+				 Registered Owner:          Intan Dihyan
+				 Registered Organization:   N/A
+				 Product ID:                00328-00265-87639-AA088
+				 Original Install Date:     13/03/2022, 21:46:26
+				 System Boot Time:          12/08/2022, 11:31:32
+				 System Manufacturer:       ASUSTeK COMPUTER INC.
+				 System Model:              VivoBook_ASUSLaptop X409DA_M409DA
+				 System Type:               x64-based PC
+				 Processor(s):              1 Processor(s) Installed.
+                           				    [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~1400 Mhz
+				 BIOS Version:              American Megatrends Inc. X409DA.305, 16/04/2021
+				 Windows Directory:         C:\WINDOWS
+				 System Directory:          C:\WINDOWS\system32
+				 Boot Device:               \Device\HarddiskVolume2
+				 System Locale:             en-us;English (United States)
+				 Input Locale:              en-us;English (United States)
+				 Time Zone:                 (UTC+07:00) Bangkok, Hanoi, Jakarta
+				 Total Physical Memory:     6.092 MB
+				 Available Physical Memory: 1.040 MB
+				 Virtual Memory: Max Size:  9.804 MB
+			 	 Virtual Memory: Available: 3.009 MB
+				 Virtual Memory: In Use:    6.795 MB
+				 Page File Location(s):     C:\pagefile.sys
+				 Domain:                    WORKGROUP
+				 Logon Server:              \\LAPTOP-QOKT7RGD
+				 Hotfix(s):                 5 Hotfix(s) Installed.
+                          				    [01]: KB5013889
+                            			          [02]: KB5007575
+                           				    [03]: KB5016629
+                           				    [04]: KB5016353
+                           				    [05]: KB5015898
+				 Network Card(s):           1 NIC(s) Installed.
+                           				    [01]: Intel(R) Dual Band Wireless-AC 8265
+                                 				    Connection Name: Wi-Fi
+                                 				    DHCP Enabled:    Yes
+                                 				    DHCP Server:     192.168.0.1
+                                 				    IP address(es)
+                                 				    [01]: 192.168.0.5
+                                 				    [02]: fe80::d878:e90d:a304:6093
+				 Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           				    Virtualization Enabled In Firmware: Yes
+                           				    Second Level Address Translation: Yes
+                           				    Data Execution Prevention Available: Yes
+
+8. cipher , hasil => E:\>cipher
+			   
+ 			   Listing E:\
+ 			   New files added to this directory will not be encrypted.
+			   
+			   U APLIKASI
+			   U bootstrap-5.1.3-dist
+			   U Coding-PGT
+			   U CRUD Kelasprogrammer
+			   U DEBIAN 11
+			   U Film zombie
+			   U GT-Berkas
+			   U HAPPINES
+		   	   U Intandihyan
+			   U Kingdom Season 2 720p
+			   U M.Akbarrefa
+			   U phpcrud
+			   U sekolah
+			   U the sims
+			   U VIERA
+			   U ziaroh wali limo
+
+9. ver , hasil => E:\>ver
+			
+			Microsoft Windows [Version 10.0.22000.795]
+
+10. time , hasil => E:\>time
+			  The current time is: 20:44:02,57
+			  Enter the new time:
+
+11. cd , hasil => E:\>cd Coding-PGT
+			
+			E:\Coding-PGT>
+
+12. pathping , hasil => E:\>pathping
+				
+				Usage: pathping [-g host-list] [-h maximum_hops] [-i address] [-n]
+                				    [-p period] [-q num_queries] [-w timeout]
+                				    [-4] [-6] target_name
+				
+				Options:
+    				    -g host-list     Loose source route along host-list.
+    				    -h maximum_hops  Maximum number of hops to search for target.
+    				    -i address       Use the specified source address.
+    				    -n               Do not resolve addresses to hostnames.
+    				    -p period        Wait period milliseconds between pings.
+    				    -q num_queries   Number of queries per hop.
+    				    -w timeout       Wait timeout milliseconds for each reply.
+    				    -4               Force using IPv4.
+    				    -6               Force using IPv6.
+
+13. arp -a , hasil => E:\>arp -a
+			    
+			    Interface: 192.168.0.5 --- 0xd
+  			    	Internet Address      Physical Address      Type
+  				192.168.0.1           f0-b4-d2-95-2a-22     dynamic
+  				192.168.0.4           aa-08-25-16-69-eb     dynamic
+  				192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  				224.0.0.2             01-00-5e-00-00-02     static
+  				224.0.0.22            01-00-5e-00-00-16     static
+  				224.0.0.251           01-00-5e-00-00-fb     static
+  				224.0.0.252           01-00-5e-00-00-fc     static
+ 				239.255.255.250       01-00-5e-7f-ff-fa     static
+  				255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+14. nslookup , hasil => E:\>nslookup
+				Default Server:  fm-dyn-140-0-223-250.fast.net.id
+				Address:  140.0.223.250
+
+15. attrib , hasil => E:\>attrib
+			    A   H                E:\693A29A6BFDA
+
+16. chcp , hasil => E:\>chcp
+			  Active code page: 437
+
+17. msinfo32 , hasil => menampilkan informasi sistem
+
+18. path , hasil => E:\>path
+			  PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32						  \WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Users\Intan 				  Dihyan\AppData\Local\Microsoft\WindowsApps;;C:\Users\Intan Dihyan\AppData\Local\Programs				  \Microsoft VS Code\bin
+
+19. netsh wlan show profiles , hasil => E:\>netsh wlan show profiles
+							
+						    Profiles on interface Wi-Fi:
+
+						    Group policy profiles (read only)
+						    ---------------------------------
+    							  <None>
+
+						    User profiles
+						    -------------
+    							  All User Profile     : PKB - Wifi
+   							  All User Profile     : wifiUPT
+  							  All User Profile     : Sate ayam
+ 							  All User Profile     : Galaxy A02fddb
+  							  All User Profile     : LIVIA
+  							  All User Profile     : reddmii
+  							  All User Profile     : USP_R32
+  							  All User Profile     : 12345678
+ 							  All User Profile     : Artan.co
+ 							  All User Profile     : BiDiAi
+  							  All User Profile     : OPPO A12
+  							  All User Profile     : gaero
+  							  All User Profile     : Viral
+  							  All User Profile     : ANDREAN
+  							  All User Profile     : LAPTOP-QPOHSQGA 5290
+ 							  All User Profile     : Malang_SMKTelkom
+  							  All User Profile     : ntunz
+  							  All User Profile     : Orbit11
+  							  All User Profile     : KOPI PANAS
+  							  All User Profile     : bib_ramadhan
+
+20. dir , hasil => E:\>dir
+			 Volume in drive E is New Volume
+ 			 Volume Serial Number is 1AAB-990E
+
+			 Directory of E:\
+
+			 15/02/2022  11:53    <DIR>          APLIKASI
+			 12/04/2022  15:01    <DIR>          bootstrap-5.1.3-dist
+			 15/08/2022  20:00    <DIR>          Coding-PGT
+			 12/04/2022  16:06    <DIR>          CRUD Kelasprogrammer
+			 11/10/2021  10:34    <DIR>          DEBIAN 11
+			 23/03/2022  12:31    <DIR>          Film zombie
+			 18/07/2022  13:20    <DIR>          GT-Berkas
+			 19/04/2022  10:29    <DIR>          HAPPINES
+			 18/11/2021  07:50    <DIR>          Intandihyan
+			 21/03/2022  10:23    <DIR>          Kingdom Season 2 720p
+			 17/05/2022  16:59    <DIR>          M.Akbarrefa
+			 12/04/2022  14:16    <DIR>          phpcrud
+			 15/08/2022  19:54    <DIR>          sekolah
+			 05/07/2022  11:09    <DIR>          the sims
+		 	 01/10/2021  08:09    <DIR>          VIERA
+			 01/10/2021  08:07    <DIR>          ziaroh wali limo
+               			    0 File(s)              0 bytes
+              			   16 Dir(s)  275.208.736.768 bytes free
